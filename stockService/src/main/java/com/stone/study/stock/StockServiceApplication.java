@@ -1,4 +1,4 @@
-package com.stone.study.eurekaClient;
+package com.stone.study.stock;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -8,10 +8,10 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 @EnableEurekaClient
 @SpringBootApplication
 @EnableFeignClients
-public class EurekaClientApplication {
+public class StockServiceApplication {
 
   public static void main(String[] args) {
-    SpringApplication.run(EurekaClientApplication.class, args);
+    SpringApplication.run(StockServiceApplication.class, args);
   }
 
 }
